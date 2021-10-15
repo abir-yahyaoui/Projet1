@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Add User</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->
+	<link rel="icon" type="image/png" href="addUser/images/icons/favicon.ico"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="addUser/vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="addUser/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="addUser/vendor/animate/animate.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="addUser/vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="addUser/addUser/vendor/select2/select2.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="addUser/css/util.css">
+	<link rel="stylesheet" type="text/css" href="addUser/css/main.css">
+	
+<!--===============================================================================================-->
+</head>
+<body>
+
+	<div class="bg-contact2" style="background-image: url('addUser/images/hapt.jpg');">
+		<div class="container-contact2">
+			<div class="wrap-contact2">
+				<form class="contact2-form validate-form">
+					<span class="contact2-form-title">
+						Ajouter Un Utilisateur 
+					</span>
+					
+					<div class="#" data-validate="selection is required">
+						<select name="role" id="roleUser">
+							<option value="">Admin</option>
+							<option value="hamster">Entreprise</option>
+							<option value="dog">Etudiant</option>
+							<option value="cat">Formateur</option>
+						</select>
+	
+						
+					</div>
+
+					<div class="wrap-input2 validate-input" data-validate="Name is required">
+						<input class="input2" type="text" name="name">
+						<span class="focus-input2" data-placeholder="Nom"></span>
+					</div>
+
+					<div class="wrap-input2 validate-input" data-validate="Prenom is required">
+						<input class="input2" type="text" name="prenom">
+						<span class="focus-input2" data-placeholder="Prenom"></span>
+					</div>
+
+					<div class="wrap-input2 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+						<input class="input2" type="text" name="email">
+						<span class="focus-input2" data-placeholder="Email"></span>
+					</div>
+
+					<div class="wrap-input2 validate-input" data-validate="Password is required">
+						<input class="input2" type="password" name="password">
+						<span class="focus-input2" data-placeholder="Password"></span>
+					</div>
+
+					<div class="wrap-input2 validate-input" data-validate="CIN is required">
+						<input class="input2" type="cin" name="cin">
+						<span class="focus-input2" data-placeholder="Cin"></span>
+					</div>
+
+					<div class="wrap-input2 validate-input" data-validate="Adresse is required">
+						<input class="input2" type="text" name="adresse">
+						<span class="focus-input2" data-placeholder="Adresse"></span>
+					</div>
+
+					<div class="wrap-input2 validate-input" data-validate="Tel is required">
+						<input class="input2" type="text" name="tel">
+						<span class="focus-input2" data-placeholder="Téléphone"></span>
+					</div>
+
+					<div class="wrap-input2 validate-input" data-validate="DateN is required">
+						<input class="input2" type="text" name="DateN">
+						<span class="focus-input2" data-placeholder="jj/mm/aaaa"></span>
+					</div>
+
+					<div class="wrap-input2 validate-input" data-validate="Niveau is required">
+						<input class="input2" type="text" name="niveau">
+						<span class="focus-input2" data-placeholder="Niveau"></span>
+					</div>
+
+					<div class="container-contact2-form-btn">
+						<div class="wrap-contact2-form-btn">
+							<div class="contact2-form-bgbtn"></div>
+							<button class="contact2-form-btn">
+								Send Your Message
+							</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+
+
+
+
+<!--===============================================================================================-->
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+	<script src="js/main.js"></script>
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-23581568-13');
+	</script>
+
+</body>
+</html>
